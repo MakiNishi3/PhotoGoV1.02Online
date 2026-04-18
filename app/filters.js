@@ -1,4 +1,13 @@
 import ripple        from "../filters/ripple.js";
+import colorbalance        from "../filters/colorbalance.js";
+import edgedetect        from "../filters/edgedetect.js";
+import kaleido        from "../filters/kaleido.js";
+import grayscale        from "../filters/grayscale.js";
+import curves       from "../filters/curves.js";
+import hsl        from "../filters/hsl.js";
+import gradientmap        from "../filters/gradientmap.js";
+import exposure        from "../filters/exposure.js";
+import labadjust        from "../filters/labadjust.js";
 import wave          from "../filters/wave.js";
 import fourier       from "../filters/fourier.js";
 import twirl         from "../filters/twirl.js";
@@ -29,11 +38,19 @@ export const registry = [
   angular,
   blaschke,
   cayley,
+  colorbalance,
+  curves,
   droplets,
   expFilter,
+  exposure,
   fourier,
+  gradientmap,
+  grayscale,
+  hsl,
   hyperbolic,
-  joukowski,    
+  invert,
+  joukowski,
+  labadjust,
   logFilter,
   mobius,  
   perlin,
